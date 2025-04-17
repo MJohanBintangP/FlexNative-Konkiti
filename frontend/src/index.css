@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+body {
+  background-color: #23242c;
+  font-family: 'Inter', sans-serif;
+}
+
+.device-notification {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #23242c;
+  z-index: 12
+}
+
+.device-notification--logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #23242c
+}
+
+.device-notification--logo p {
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase
+}
+
+.device-notification--message {
+  width: 70%;
+  margin: 30px 0 0 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff; 
+}
+.device-notification--highlight1 {
+  width: 70%;
+  margin: 30px 0 0 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff; 
+}
+
+.device-notification--highlight2 {
+  width: 70%;
+  margin: 30px 0 0 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  color: #5627FF;
+}
+
+@media(max-width: 1180px) {
+  .device-notification {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1E1F27;
+  border-radius: 0 8px 8px 0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #3E3F46;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #4A4B52;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3E3F46 #1E1F27;
+}

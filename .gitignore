@@ -1,0 +1,43 @@
+# ========================
+# Global
+# ========================
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ========================
+# Frontend - Vite + React + Tailwind
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+
+# IDE related (VSCode, WebStorm, etc)
+frontend/.vscode/
+frontend/.idea/
+
+# ========================
+# Backend - Node + Express + MongoDB
+# ========================
+backend/node_modules/
+backend/dist/
+backend/.DS_Store
+
+# IDE related
+backend/.vscode/
+backend/.idea/
+
+# ========================
+# OS files (Windows/macOS/Linux)
+# ========================
+Thumbs.db
+ehthumbs.db
+*.swp
