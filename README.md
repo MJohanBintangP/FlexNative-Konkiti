@@ -10,7 +10,7 @@ FlexNative adalah aplikasi web full-stack yang dirancang sebagai platform pembel
 
 ## ✨ Fitur Utama
 
-*   **Otentikasi Pengguna:** Login/Logout aman menggunakan Google OAuth 2.0.
+*   **Otentikasi Pengguna:** Login/Logout aman menggunakan Google OAuth 2.0. 
 *   **Manajemen Kursus (Backend):** Operasi CRUD (Create, Read, Update, Delete) untuk materi kursus.
 *   **Tampilan Kursus (Frontend):** Menampilkan daftar kursus yang tersedia.
 *   **Dashboard Pengguna:** Area personalisasi setelah login.
