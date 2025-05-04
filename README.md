@@ -4,8 +4,6 @@
 
 # FlexNative - Platform Pembelajaran React Native
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 FlexNative adalah aplikasi web full-stack yang dirancang sebagai platform pembelajaran online interaktif yang berfokus pada pengembangan aplikasi mobile menggunakan React Native. Aplikasi ini menyediakan kursus, manajemen progres pengguna, dan otentikasi menggunakan Google OAuth.
 
 ## ✨ Fitur Utama
